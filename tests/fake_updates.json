@@ -1,0 +1,12 @@
+[
+ {"ret":0,"get_updates_buf":"CURSOR1","longpolling_timeout_ms":35000,"msgs":[
+  {"seq":1,"message_id":7300000000000000001,"from_user_id":"user@im.wechat","to_user_id":"bot@im.bot","create_time_ms":1791600000000,"message_type":1,"message_state":2,"context_token":"CTX_A1","item_list":[{"type":1,"text_item":{"text":"帮我查一下明天的天气"}}]},
+  {"seq":2,"message_id":7300000000000000002,"from_user_id":"stranger@im.wechat","to_user_id":"bot@im.bot","create_time_ms":1791600001000,"message_type":1,"context_token":"CTX_X","item_list":[{"type":1,"text_item":{"text":"我是陌生人"}}]},
+  {"seq":3,"message_id":7300000000000000003,"from_user_id":"user@im.wechat","message_type":2,"item_list":[{"type":1,"text_item":{"text":"bot echo"}}]},
+  {"seq":4,"message_id":7300000000000000004,"from_user_id":"user@im.wechat","create_time_ms":1791600002000,"message_type":1,"context_token":"CTX_A2","item_list":[{"type":3,"voice_item":{"text":"语音转文字内容"}},{"type":2,"image_item":{}}]}
+ ]},
+ {"ret":0,"get_updates_buf":"CURSOR2","msgs":[
+  {"seq":1,"message_id":7300000000000000001,"from_user_id":"user@im.wechat","message_type":1,"context_token":"CTX_A3","item_list":[{"type":1,"text_item":{"text":"duplicate"}}]},
+  {"seq":5,"message_id":7300000000000000005,"from_user_id":"user@im.wechat","group_id":"g1","message_type":1,"item_list":[{"type":1,"text_item":{"text":"group msg"}}]}
+ ]}
+]
